@@ -3,7 +3,7 @@ vertor_original = []
 print("Digite 10 valores inteiros e positivos:")
 
 for i in range(10):
-    valor = int(input(f"valor {i+1}"))
+    valor = int(input(f"valor {i+1}: "))
     while valor <= 0:
         valor = int(input(f"valor{i+1} (positivo)"))
     vertor_original.append(valor)
