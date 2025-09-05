@@ -6,6 +6,4 @@ numeros = [num1, num2, num3]
 
 numeros.sort()
 
-print(numeros[0])
-print(numeros[1])
-print(numeros[2])
+print(numeros)
