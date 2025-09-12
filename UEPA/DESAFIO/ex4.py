@@ -19,7 +19,7 @@ soma = sum(lista1)
 
 
 # media = soma / tamanho
-print(f' lista gerada {joao:".2f}")
+print(f"lista gerada {joao:.2f}")
 
 # print(soma)
 # print(media)
