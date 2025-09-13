@@ -13,5 +13,6 @@ while cont < num:
     i += 2
     if cont < num:
         print(" + ", end = "")
-print(" = ", soma)    
+print(" = ", soma)   
+
 
