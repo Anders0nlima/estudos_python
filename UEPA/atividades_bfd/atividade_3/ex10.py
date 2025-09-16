@@ -2,7 +2,7 @@ num = int(input("Digite um numero: "))
 if num <= 0:
     print("Numeros negativos são invalidos")
 else:
-    resultado = ""
+    resultado = " "
 
     resultado += "OKOSA " * (num//2)
 

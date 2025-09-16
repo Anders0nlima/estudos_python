@@ -24,5 +24,5 @@ for i in range(quant_alunos):
 print(f"\nTotal de alunos acima da média: {len(acima_media)}")
 print("Alunos acima da média:", acima_media)
 
-for nome, nota in zip(lista_nomes, lista_nomes):
+for nome, nota in zip(lista_nomes, lista_notas):
     print(f"{nome} : {nota}")
