@@ -3,4 +3,5 @@ hoje = date.today()
 
 print("A data de hoje é:", hoje)
 
-seuAniversario = input("Sua idade: (--/--/----)")
+seuAniversario = input("digite seu nacimento: ")
+
