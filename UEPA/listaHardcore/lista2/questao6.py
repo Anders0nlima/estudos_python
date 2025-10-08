@@ -1,3 +1,5 @@
+#6. Pedra, Papel e Tesoura (random + lógica condicional)
+
 import random
 
 cont = 1
