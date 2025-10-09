@@ -1,22 +1,21 @@
 import random
 
-def jogo(opcoes, opcao_jogo):
-  if(opcao_jogo not in ["1", "2", "3"]):
-      print("opção na valida")
-  else:
-      comp = random.choice(opcoes)
-      jodador = opcoes[int(opcao_jogo) - 1] #transfoam em palavra
-      print("computador: ", comp)
-      print("sua escolha: ", jodador)
-    
-      if comp == jodador:
-          print("empate")
-      elif (jodador == "pedra" and comp == "tesoura") or (jodador == "papel" and comp == "pedra") or (jodador == "tesoura" and comp == "papel"):
-          print("Você ganhou")
-      else:
-          print("Você perdeu")
+cont = 1
 
-opcoes = ["pedra", "papel", "tesoura"]
-opcao_jogo = input("escolha entre [1-pedra], [2-papel] e [3-tesoura]: ")
+while cont == 1:
+    jogador = input("escolha entre pedra, papel ou tesoura: ").lower()
+    comp  = (random.choice(["pedra","papel","tesoura"])).lower()
 
-jogo(opcoes, opcao_jogo)
+
+    if jogador == "pedra" and comp == "papel" or jogador == "papel" and comp == "tesoura" or jogador == "tesoura" and comp == "pedra":
+        print("computador ganhou")
+    elif jogador == "pedra" and comp == "tesoura" or jogador == "papel" and comp == "pedra" or jogador == "tesoura" and comp == "papel":
+        print("você ganhou")
+    else:
+        print("empatou")
+
+    print(f"escolha do computador: {comp}")
+
+    cont = int(input("deseja jogar de novo: 1-[sim] 2-[não]"))
+
+print("voce saiu")
