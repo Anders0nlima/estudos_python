@@ -41,8 +41,20 @@ precos = {
     "E": preco_e
 }
 
+
+
+
+
+
+
+
+
 for est, preco in precos.items():
-    print(f"Estacionamentos {est}: R$ {preco:.2f}")
+    print(f"Estacionamentos {est}: R$ {preco:.2f}") #Isso é o mesmo conceito de listas de tuplas, mas aplicado a dicionários, feitos na 7 e 5
 
 melhor = min(precos, key=precos.get)
 print(f"\nO estacionamento mais barato é o {melhor}, com valor R$ {precos[melhor]:.2f}")
+
+#O argumento key=precos.get diz ao Python:
+#“Quando for comparar as chaves (‘A’, ‘B’, …), use o valor de cada chave (o preço) pra decidir o menor.”
+#precos.get("A") → 36.0

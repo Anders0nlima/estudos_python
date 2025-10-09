@@ -2,9 +2,10 @@ lista_ingrad = ["xicara de farinha", "xicara de chocolate me pÃ³", "xicara de aÃ
 
 lista_ingrad_quant = [9/4, 4/3, 1+3/4, 5/6]
 
-ingredientes = list(zip(lista_ingrad_quant, lista_ingrad))
 
-ingredientes.sort()
+lista_junta = list(zip(lista_ingrad_quant, lista_ingrad))
 
-for quant, ing in ingredientes:
-    print(f"{quant:.2} - {ing}")
+lista_junta.sort()
+
+for quant, ingre in lista_junta:
+    print(f"{quant:.2} - {ingre}")
