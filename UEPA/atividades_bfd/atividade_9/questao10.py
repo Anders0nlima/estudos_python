@@ -71,5 +71,7 @@ match escolha:
     case _:
         print("Opção inválida.")
 
+
+#estudar tem crud aqui 
    
         

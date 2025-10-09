@@ -10,3 +10,5 @@ listaNumeros = [1, 2, 3, 4, 5]
 busca = int(input("pequise um item: "))
 
 print(buscar_item(listaNumeros, busca))
+
+#estudar
