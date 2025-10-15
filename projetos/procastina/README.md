@@ -1,4 +1,6 @@
 localização: PS C:\Projetos\estudos_python\projetos\procastina>
+cd projetos
+cd procastina
 habilitar o programa: python termo_produtividade.py
 comandos:
 register	Registra o tempo produtivo e o tempo de procrastinação do dia.
