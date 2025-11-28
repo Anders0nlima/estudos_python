@@ -19,7 +19,6 @@ def numero_por_extenso(n):
         "novecentos"
     ]
 
-    # CASOS DIRETOS
     if n == 0:
         return ""
     if n == 100:
@@ -33,24 +32,20 @@ def numero_por_extenso(n):
     d = (n % 100) // 10
     u = n % 10
 
-    # centenas
     if c > 0:
         texto += centenas[c]
         if n % 100 != 0:
             texto += " e "
 
-    # 10–19
     if 10 <= n % 100 <= 19:
         texto += especiais[(n % 100) - 10]
         return texto
 
-    # dezenas
     if d > 0:
         texto += dezenas[d]
         if u > 0:
             texto += " e "
 
-    # unidades
     if u > 0:
         texto += unidades[u]
 
