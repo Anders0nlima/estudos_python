@@ -7,7 +7,7 @@ minutos_saida = int(input("Minutos da entrada: ")) # -> 00
 total_minutos_entrada = ((hora_entrada*60) + minutos_entrada) # -> 770
 total_minutos_saida = ((hora_saida*60) + minutos_saida) # -> 840
 
-if total_minutos_saida < total_minutos_entrada:
+if total_minutos_saida < total_minutos_entrada: #pra nao dá confusoa com o dia seguite 
     total_minutos_saida += 24 * 60
     
 total_minutos = total_minutos_saida - total_minutos_entrada

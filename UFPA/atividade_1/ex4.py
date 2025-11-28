@@ -1,10 +1,10 @@
 soma_quadrados = 0
-for i in range(1, 11):
+for i in range(1, 101):
     soma_quadrados += i**2
 
 
 lista = []
-for j in range(1, 11):
+for j in range(1, 101):
     lista.append(j)
 
 soma_naturais = (sum(lista)**2)
