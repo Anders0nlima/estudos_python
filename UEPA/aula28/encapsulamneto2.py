@@ -1,3 +1,4 @@
+
 class Encapsulamento:
     def __init__(self):
         self.__privado = "Variavel privada" 

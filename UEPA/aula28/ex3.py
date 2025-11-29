@@ -1,3 +1,4 @@
+
 class Folha:
     def __init__(self, formato):
         self._formato_folha = formato

@@ -1,3 +1,4 @@
+
 class Encapsulamento:
     def __init__(self): #privado por que tem dois underline
         self.__privado = "Variavel privada" #protegido, se nao tivesse o underline seria publico
