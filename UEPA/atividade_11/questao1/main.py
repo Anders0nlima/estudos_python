@@ -1,10 +1,11 @@
 from Aluno import Aluno
+from Database import Database
 import mysql.connector
 
 conexao = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='admin',
+    password='admin21', #admin
     database='banco_exemplo'
 )
 
@@ -17,11 +18,11 @@ for i in range(4):
 
 aluno = Aluno(nome, notas)
 
-
 print("--- Resultado ---")
 print(f"Média: {aluno.calcular_media():.2f}")
 print(f"Situação: {aluno.verificar_situacao()}")
 
-aluno.salvar_no_banco(conexao)
+dao = Database(conexao)
+dao.salvar(aluno)
 
 conexao.close()
