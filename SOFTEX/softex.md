@@ -1,0 +1,1 @@
+Nessa pasta existem explicações de conceitos na pratica feitos durante meus estudos com a bolsa softex
