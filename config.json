@@ -1,0 +1,14 @@
+{
+    "network": {
+        "wifi_ssid": "FactoryFloor_Net",
+        "wifi_pass": "senhaSuperSegura123"
+    },
+    "server": {
+        "host": "data.minhafabrica.com",
+        "port": 8883
+    },
+    "active_sensors": [
+        "Temperature",
+        "Vibration"
+    ]
+}

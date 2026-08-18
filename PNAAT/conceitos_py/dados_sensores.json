@@ -1,0 +1,44 @@
+{
+  "unidades": {
+    "temperatura": "C",
+    "pressao": "bar",
+    "velocidade": "m/s"
+  },
+  "leituras": [
+    {
+      "data": "2025-09-09",
+      "hora": "16:19:21",
+      "temperatura": 26.39,
+      "velocidade": 16.88,
+      "pressao": 1.07
+    },
+    {
+      "data": "2025-09-09",
+      "hora": "16:20:21",
+      "temperatura": 22.23,
+      "velocidade": 70.24,
+      "pressao": 1.31
+    },
+    {
+      "data": "2025-09-09",
+      "hora": "16:21:21",
+      "temperatura": 28.92,
+      "velocidade": 21.52,
+      "pressao": 1.15
+    },
+    {
+      "data": "2025-09-09",
+      "hora": "16:22:21",
+      "temperatura": 20.3,
+      "velocidade": 31.4,
+      "pressao": 1.2
+    },
+    {
+      "data": "2025-09-09",
+      "hora": "16:23:21",
+      "temperatura": 20.27,
+      "velocidade": 29.91,
+      "pressao": 1.29
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Leitura 1 - Temperatura: 26.39 C
+Leitura 2 - Temperatura: 22.23 C
+Leitura 3 - Temperatura: 28.92 C
+Leitura 4 - Temperatura: 20.3 C
+Leitura 5 - Temperatura: 20.27 C

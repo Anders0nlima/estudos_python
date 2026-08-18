@@ -1,0 +1,13 @@
+{
+    "id_maquina": "MAQ-007",
+    "timestamp_final": "2026-05-25T16:29:09.856403",
+    "ultimo_ciclo": {
+        "id_lote": "LOTE-54B9",
+        "pecas_produzidas": 1500,
+        "pecas_rejeitadas": 3
+    },
+    "status_ferramentas": {
+        "ferramenta_corte": "87% de vida \u00fatil",
+        "ferramenta_solda": "calibrada"
+    }
+}
